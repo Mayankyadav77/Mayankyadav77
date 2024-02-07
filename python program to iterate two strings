@@ -1,0 +1,10 @@
+# Write a python program to iterate two strings 
+str1 = input("Enter first String:")
+str2 = input("Enter second string:")
+l1 = len(str1)
+l2 = len(str2)
+for i in range(0,1) :
+  print(str1[i])
+print("\n")
+for i in range(0,2) :
+  print(str2[i])
