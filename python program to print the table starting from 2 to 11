@@ -1,0 +1,6 @@
+# Write a Program to print the tables starting from 2 to 11
+for i in range(2,12) :
+  print("Multiplication table of ",i)
+for j in range(1,11) :
+  print(str(i)+"X"+str(j)+"="+str(i*j))
+print("\n")
