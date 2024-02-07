@@ -1,0 +1,17 @@
+# Write a Program to find Armstrong number in an interval
+num2 = int(input("Enter the first number of the interval:\n"))
+num3 = int(input("Enter the last number of the interval:\n"))
+print("Armstrong Numbers in the given intreval are:\n")
+for i in range(num2,num3+1) :
+  sum1=0 
+r1=0 
+i=str(i)
+n1=len(i)
+i = int(i)
+temp = i 
+while(temp>0):
+  r1 = temp%10
+  sum1 = sum1+r1**n1
+temp=temp//10
+if sum1==i :
+  print(i"is a Armstrong Number.")
