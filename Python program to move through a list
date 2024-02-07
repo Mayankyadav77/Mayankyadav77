@@ -1,0 +1,8 @@
+# Write a program to move through a list
+n = int(input("Enter number of items in your list:\n"))
+my_list = []
+for i in range(0,n) :
+  my_list.append(input("Enter list"+"["+str(i)+"]"+":"))
+print("Your list is:\n")
+for i in range(0,n) :
+  print("List"+"["+str(i)+"]"+":"+my_list[i])
